@@ -1,0 +1,23 @@
+# Arquivos de Ambiente (NUNCA DEVEM IR PARA O REPOSITÓRIO)
+.env
+.env.local
+
+# Ambientes Virtuais do Python
+venv/
+env/
+.venv/
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e Banco de Dados Local (se houver SQLite temporário)
+*.log
+*.sqlite3
+petshop.db
+
+# Pastas de IDE
+.vscode/
+.idea/
